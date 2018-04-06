@@ -88,6 +88,9 @@ header{
         margin-top: 60px;
         display: inline-block;
     }
+        header .logo-nav .logo p{
+            margin-top: 23px;
+        }
         header .logo-nav{
             height: 200px;
         }

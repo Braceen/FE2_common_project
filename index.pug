@@ -1,20 +1,21 @@
 html
     head
         link(rel= "stylesheet", href="style/style.css")
+        link(rel= "stylesheet", href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
         meta(charset = "utf-8")
         meta(name = "viewport", content = "initial-scale=1.0, width=device-width")
         title Fe-2 the best
     body
         .wrapper
             .header
-                include template/head.pug
+                include template/_head
             .company
-                include template/company.pug
+                include template/_company
             .projects
-                include template/projects.pug
+                include template/_projects
             .team
-                include template/team.pug
+                include template/_team
             .location
-                include template/location
+                include template/_location
             .footer
-                include template/footer.pug
+                include template/_footer
